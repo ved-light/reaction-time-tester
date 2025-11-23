@@ -1,4 +1,4 @@
-# Reaction Time Tester
+# reaction-time-tester
 
 ## Overview
 [cite_start]A Python-based command-line application designed to measure and quantify an user's reaction speed to an visual stimulas[cite: 89, 90].
