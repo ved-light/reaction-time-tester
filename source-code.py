@@ -23,7 +23,7 @@ while a=="y" or a=="Y":
         t2=time.time()
 
         result=t2-t1
-        print(f"your reaction time: {result:.4f}")
+        print(f"your reaction time: {result:.4f} seconds")
         
     print("-"*30)
     a=input("would you like to play again ? (y/n) ")
