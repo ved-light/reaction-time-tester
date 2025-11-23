@@ -26,4 +26,4 @@ A Python-based command-line application designed to measure and quantify an user
 3.  Wait for the "GO!!!" text.
 4.  Press `ENTER` immediately.
 5.  View your reaction time in seconds.
-6.  Type 'y' to retry or 'n' to exit
+6.  Type 'y' to retry or 'n' to exit.
