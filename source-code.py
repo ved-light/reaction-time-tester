@@ -2,9 +2,9 @@ import time
 import random as rd
 import msvcrt as ms
 
-r=rd.randrange(2,8)
+r=rd.randrange(1,7)
 a="y"
-while a=="y" or a=="Y":
+while a=="y":
     print("\nWhen you see 'GO!', press ENTER as fast as you can.")
     input("press ENTER to start")
 
@@ -13,7 +13,7 @@ while a=="y" or a=="Y":
 
     time.sleep(r)
     if ms.kbhit():
-        print("\ntoo early, you are disqualified")
+        input("\ntoo early, you are disqualified")
         
     else:
         print("\nGO!!!")
@@ -26,5 +26,5 @@ while a=="y" or a=="Y":
         print(f"your reaction time: {result:.4f} seconds")
         
     print("-"*30)
-    a=input("would you like to play again ? (y/n) ")
+    a=input("would you like to play again ? (y/n) ").lower()
      
